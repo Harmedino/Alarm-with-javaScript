@@ -37,7 +37,6 @@ function save() {
   if (hours.value == "" && minutes2 == "") {
     alert();
   } else {
-    alert("something");
     buttonl.disabled = true;
     alarm.hidden = false;
     hourss = hours.value;
