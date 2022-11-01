@@ -6,10 +6,10 @@ let sec = document.getElementById("sec");
 let alarm = document.getElementById("alarm");
 let buttonl = document.getElementById("button");
 
-for (let index = 0; index <= 60; index++) {
+for (let index = 0; index <= 6; index++) {
   let newIndex = String(index);
   let minute_opt = document.getElementById("minute2");
-  minute_opt.innerHTML += `<option class="text-dark">${newIndex.padStart(
+  minute_opt.innerHTML += `<option class="text-dark border">${newIndex.padStart(
     2,
     0
   )}<option>`;
